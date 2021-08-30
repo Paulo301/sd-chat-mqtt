@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 3fr 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 4px;
+
+  width: 500px;
+  height: 500px;
+  background-color: #e0e0e0;
+  padding: 4px;
+  border-radius: 3px;
+}
+
+#container #messages{
+  border-radius: 3px;
+  background-color: #FFF;
+  padding: 5px;
+  overflow-y: scroll;
+}
+
+#container #participants{
+  border-radius: 3px;
+  background-color: #FFF;
+  padding: 5px;
+}
+
+#container #typing-field{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+#container #typing-field textarea{
+  width: 100%;
+  height: 90%;
+  border-radius: 3px;
+  padding: 5px;
+  resize: none;
+  border-width: 0px;
+}
+
+#container #send-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+#container #send-button button{
+  width: 95%;
+  height: 95%;
+  background-color: #039be5;
+  font-size: 1rem;
+}
+
+#container #send-button button:hover{
+  cursor: pointer;
+}

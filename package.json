@@ -1,0 +1,16 @@
+{
+  "name": "sd-chat-mqtt",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/Paulo301/sd-chat-mqtt.git",
+  "author": "Paulo301 <paulovictor1918@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "client1": "node client.js",
+    "client2": "node client2.js"
+  },
+  "dependencies": {
+    "mqtt": "^4.2.8"
+  }
+}
